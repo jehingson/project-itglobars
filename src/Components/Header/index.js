@@ -6,7 +6,6 @@ import styled from 'styled-components';
 
 export default function Header() {
     const { travel } = useTravel();
-    console.log('travel', travel)
     if (!travel.length) return null
     return <>
         <Nav>
